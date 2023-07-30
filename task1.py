@@ -11,11 +11,11 @@ if Class  == 'fscm':
 	bio = int(input('Bio:'))
 	phy = int(input('Phy:'))
 	eng = int(input('Eng:'))
-	Sum = int(urdu) + int(pakst) + int(isl) + int(chem) + int(bio) + int(phy) + int(eng)
-	percent = (Sum / 700) * 100
+	sum_ = int(urdu) + int(pakst) + int(isl) + int(chem) + int(bio) + int(phy) + int(eng)
+	percent = (sum_ / 700) * 100
 	print (f"Name:{name}")
 	print (f"Class:{Class}")
-	print  (f"Total:{Sum}/700 ")
+	print  (f"Total:{sum_}/700 ")
 	print (f"Percentage:{percent}")
 	if percent > 80:
 		print ("Grade:A")
@@ -36,11 +36,11 @@ elif Class  == 'fsce':
 	math = int(input('math:'))
 	phy = int(input('Phy:'))
 	eng = int(input('Eng:'))
-	Sum = int(urdu) + int(pakst) + int(isl) + int(chem) + int(math) + int(phy) + int(eng)
-	percent = (Sum / 700) * 100
+	sum_ = int(urdu) + int(pakst) + int(isl) + int(chem) + int(math) + int(phy) + int(eng)
+	percent = (sum_ / 700) * 100
 	print (f"Name:{name}")
 	print (f"Class:{Class}")
-	print  (f"Total:{Sum}/700 ")
+	print  (f"Total:{sum_}/700 ")
 	print (f"Percentage:{percent}")
 	if percent > 80:
 		print ("Grade:A")
@@ -61,11 +61,11 @@ elif Class  == 'ics':
 	bio = int(input('Bio:'))
 	phy = int(input('Phy:'))
 	eng = int(input('Eng:'))
-	Sum = int(urdu) + int(pakst) + int(isl) + int(chem) + int(bio) + int(phy) + int(eng)
-	percent = (Sum / 700) * 100
+	sum_ = int(urdu) + int(pakst) + int(isl) + int(chem) + int(bio) + int(phy) + int(eng)
+	percent = (sum_ / 700) * 100
 	print (f"Name:{name}")
 	print (f"Class:{Class}")
-	print  (f"Total:{Sum}/700 ")
+	print  (f"Total:{sum_}/700 ")
 	print (f"Percentage:{percent}")
 	if percent > 80:
 		print ("Grade:A")
