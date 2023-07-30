@@ -4,13 +4,27 @@ Class = input('Enter your class:')
 #For Class FSCM
 if Class  == 'fscm':
 	print("Enter Your Number:")
-	urdu = int(input('Urdu:'))
-	pakst = int(input('Pakst:'))
-	isl = int(input('Isl:'))
-	chem = int(input('Chem:'))
-	bio = int(input('Bio:'))
-	phy = int(input('Phy:'))
-	eng = int(input('Eng:'))
+	urdu = input('Urdu:')
+	if urdu > 100:
+		print ("Score must be under 100")
+	pakst = input('Pakst:')
+	if pakst > 100:
+		print ("Score must be under 100")
+	isl = input('Isl:')
+	if isl > 100:
+		print ("Score must be under 100")
+	chem = input('Chem:')
+	if chem > 100:
+		print ("Score must be under 100")
+	bio = input('Bio:')
+	if bio > 100:
+		print ("Score must be under 100")
+	phy = input('Phy:')
+	if phy > 100:
+		print ("Score must be under 100")
+	eng = input('Eng:')
+	if eng > 100:
+		print ("Score must bet under 100")
 	sum_ = int(urdu) + int(pakst) + int(isl) + int(chem) + int(bio) + int(phy) + int(eng)
 	percent = (sum_ / 700) * 100
 	print (f"Name:{name}")
@@ -29,13 +43,27 @@ if Class  == 'fscm':
 #For Class FSCE	
 elif Class  == 'fsce':
 	print("Enter Your Number:")
-	urdu = int(input('Urdu:'))
-	pakst = int(input('Pakst:'))
-	isl = int(input('Isl:'))
-	chem = int(input('Chem:'))
-	math = int(input('math:'))
-	phy = int(input('Phy:'))
-	eng = int(input('Eng:'))
+	urdu = input('Urdu:')
+	if urdu > 100:
+		print ("Score must be under 100")
+	pakst = input('Pakst:')
+	if pakst > 100:
+		print ("Score must be under 100")
+	isl = input('Isl:')
+	if isl > 100:
+		print ("Score must be under 100")
+	chem = input('Chem:')
+	if chem > 100:
+		print ("Score must be under 100")
+	math = input('math:')
+	if math > 100:
+		print ("Score must be under 100")
+	phy = input('Phy:')
+	if phy > 100:
+		print ("Score must be under 100")
+	eng = input('Eng:')
+	if eng > 100:
+		print ("Score must be under 100")
 	sum_ = int(urdu) + int(pakst) + int(isl) + int(chem) + int(math) + int(phy) + int(eng)
 	percent = (sum_ / 700) * 100
 	print (f"Name:{name}")
@@ -54,14 +82,28 @@ elif Class  == 'fsce':
 #For class ICS
 elif Class  == 'ics':
 	print("Enter Your Number:")
-	urdu = int(input('Urdu:'))
-	pakst = int(input('Pakst:'))
-	isl = int(input('Isl:'))
-	chem = int(input('Chem:'))
-	bio = int(input('Bio:'))
-	phy = int(input('Phy:'))
-	eng = int(input('Eng:'))
-	sum_ = int(urdu) + int(pakst) + int(isl) + int(chem) + int(bio) + int(phy) + int(eng)
+	urdu = input('Urdu:')
+	if urdu > 100:
+		print ("Score must be under 100")
+	pakst = input('Pakst:')
+	if pakst > 100:
+		print ("Score must be under 100")
+	isl = input('Isl:')
+	if isl > 100:
+		print ("Score must be under 100")
+	comp = input('Comp:')
+	if comp> 100:
+		print ("Score must be under 100")
+	math = input('Math:')
+	if map > 100:
+		print ("Score must be under 100")
+	phy = input('Phy:')
+	if phy > 100:
+		print ("Score must be under 100")
+	eng = input('Eng:')
+	if eng > 100:
+		print ("Score must be under 100")
+	sum_ = int(urdu) + int(pakst) + int(isl) + int(comp) + int(Math) + int(phy) + int(eng)
 	percent = (sum_ / 700) * 100
 	print (f"Name:{name}")
 	print (f"Class:{Class}")
