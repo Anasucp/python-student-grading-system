@@ -55,8 +55,8 @@ if Class  == 'fscm':
 
 	print (f"Name:{name}")
 	print (f"Class:{Class}")
-	print  (f"Total:{sum_}/700 ")
-	print (f"Percentage:{percent}")
+	
+	
 	
 	if percent > 80:
 		print ("Grade:A")
@@ -69,6 +69,9 @@ if Class  == 'fscm':
 
 	if subject_flag:
 		print("Note: some of your input is incorrect so it will effect on your results.")
+	else:
+		print  (f"Total:{sum_}/700 ")
+		print (f"Percentage:{percent}")	
 
 #For Class FSCE	
 elif Class  == 'fsce':
@@ -119,8 +122,7 @@ elif Class  == 'fsce':
 
 	print (f"Name:{name}")
 	print (f"Class:{Class}")
-	print  (f"Total:{sum_}/700 ")
-	print (f"Percentage:{percent}")
+	
 	
 	if percent > 80:
 		print ("Grade:A")
@@ -133,6 +135,9 @@ elif Class  == 'fsce':
 
 	if subject_flag:
 		print("Note: some of your input is incorrect so it will effect on your results.")
+	else:
+		print  (f"Total:{sum_}/700 ")
+		print (f"Percentage:{percent}")		
 #For class ICS
 elif Class  == 'ics':
 	print("Enter Your Number:")
@@ -182,8 +187,7 @@ elif Class  == 'ics':
 
 	print (f"Name:{name}")
 	print (f"Class:{Class}")
-	print  (f"Total:{sum_}/700 ")
-	print (f"Percentage:{percent}")
+	
 	
 	if percent > 80:
 		print ("Grade:A")
@@ -196,6 +200,9 @@ elif Class  == 'ics':
 
 	if subject_flag:
 		print("Note: some of your input is incorrect so it will effect on your results.")
+	else:
+		print  (f"Total:{sum_}/700 ")
+		print (f"Percentage:{percent}")		
 
 
 
